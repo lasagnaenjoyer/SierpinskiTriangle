@@ -1,4 +1,4 @@
-public void settings() {
+ public void settings() {
     size(500, 500);
   }
 
@@ -13,7 +13,7 @@ public void settings() {
   }
   public void sierpinski(int x, int y, int len) {
     if (len < 30) {
-      fill((int)(Math.random()*235)+40,(int)(Math.random()*235)+40, (int)(Math.random()*235))40; 
+      fill((int)(Math.random()*235)+50,(int)(Math.random()*235)+50, (int)(Math.random()*235)+50); 
       triangle(x, y, x+len, y, x+len/2, y-len);
     }
     else {
